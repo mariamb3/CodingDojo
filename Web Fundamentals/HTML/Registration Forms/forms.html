@@ -11,15 +11,24 @@
             First Name:<input type="text" name="name">
             Last Name:<input type="text" name="name">
             Email:<input type="text" name="name">
-            Password:<input type="text" name="name">
+            Password:<input type="password" id="password" name="password">
             PW Confirm:<input type="text" name="name">
             Male<input type="radio" name="gender" value="male">
             Female<input type="radio" name="gender" value="female">
             Other<input type="radio" name="gender" value="female">
             Birthday<input type="date" value="mm/dd/yyyy">
         </label>
-        <p>Say a few words about yourself:</p>
+        <p>A short description about yourself:</p>
         <textarea name="description"></textarea>
+        <label for="language"> Favorite Language</label>
+        <select name="language" id="language">
+            <option value="javascript"> JavaScript</option>
+            <option value="javas"> Java</option>
+            <option value="Python"> Python</option>
+            <option value="HTML"> HTML</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
 </head>
 
 <body>
